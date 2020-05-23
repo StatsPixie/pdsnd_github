@@ -6,12 +6,15 @@ library(magrittr)
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
+mn =read.csv('minneapolis.csv')
 
 head(ny)
 
 head(wash)
 
 head(chi)
+
+head(mn)
 
 ggplot (aes(x=Trip.Duration), data=wash) + geom_histogram(binwidth=5) + ggtitle('Histogram of Time Spent On Bike') + labs(x='Length of bike rides', y='Number of riders')+ scale_x_continuous(limits = c(0,2501))
 
