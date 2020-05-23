@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+5/23/2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Udacity project
 
 ### Description
-Describe what your project is about and what it does
+Explatory Data Analysis
 
 ### Files used
-Include the files used
+Explore_bikeshare_data.r
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity Course files
